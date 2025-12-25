@@ -270,3 +270,51 @@ footer {
     text-align: center;
     margin-top: auto;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    /* Prevent background fixed jitter on mobile */
+    body {
+        background-attachment: scroll;
+    }
+
+    /* Stack results/cards vertically if present */
+    .results-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    /* Modal adjustments for small screens */
+    .modal-content {
+        width: 95%;
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    /* Slightly smaller main heading to avoid wrapping */
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    /* Touch friendly spacing for interactive elements */
+    .cat-btn {
+        padding: 14px 18px;
+        font-size: 1rem;
+    }
+
+    .list-item {
+        padding: 20px;
+    }
+
+    /* Ensure map visuals scale nicely */
+    .map-visual {
+        padding: 18px;
+    }
+
+    /* Make images responsive inside map container */
+    .floor-plan-img {
+        width: 100%;
+        height: auto;
+    }
+}
