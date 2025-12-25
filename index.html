@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدارس أبها الأهلية - دربنا</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>دربنا - خريطة مدرسة أبها الأهلية</h1>
+            <p>دليلك داخل المدرسة</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="ابحث عن فصل، معلم، أو مرفق...">
+        </section>
+
+        <nav class="categories">
+            <button class="cat-btn active" data-category="all">الكل</button>
+            <button class="cat-btn" data-category="classes">الفصول الدراسية</button>
+            <button class="cat-btn" data-category="admin">الإدارة</button>
+            <button class="cat-btn" data-category="teachers">المعلمات</button>
+            <button class="cat-btn" data-category="facilities">المرافق العامة</button>
+            <button class="cat-btn" data-category="labs">المعامل والقاعات</button>
+        </nav>
+
+        <div class="content-wrapper">
+            <aside class="list-panel">
+                <div id="itemsList" class="items-list">
+                    <!-- Items will be populated by JavaScript -->
+                </div>
+            </aside>
+
+            <section class="details-panel" id="detailsPanel">
+                <div class="placeholder-text">
+                    <p>اختر عنصراً لعرض التفاصيل والموقع</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 مدارس أبها الأهلية - مديرة المدرسة: صالحة الحفظي
+                        <p> تصمم و تطوير : أ.طارق ابوعشي</p>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
