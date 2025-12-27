@@ -9,6 +9,7 @@ const schoolData = [
         location: 'الدور الثاني << اتجه يساراً ثم يميناً',
         floor: 'الدور الثاني',
         mapImage: 'https://placehold.co/600x400?text=Floor+Plan+Floor+2',
+        realImage: 'https://placehold.co/600x400?text=Real+Photo+Class+1A',
         coordinates: { top: '30%', left: '40%' }
     },
     {
@@ -155,6 +156,7 @@ const schoolData = [
         details: 'مختبر تكنولوجيا المعلومات',
         location: 'الدور الثالث - الجناح التقني',
         mapImage: 'https://placehold.co/600x400?text=Floor+Plan+Floor+3',
+        realImage: 'https://placehold.co/600x400?text=Real+Photo+Computer+Lab',
         coordinates: { top: '40%', left: '20%' }
     },
     {
